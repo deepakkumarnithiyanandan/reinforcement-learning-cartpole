@@ -60,6 +60,12 @@ This saves the trained model to `checkpoints/cartpole_dqn.pt` by default.
 python evaluate.py --model checkpoints/cartpole_dqn.pt --episodes 10
 ```
 
+## Run tests
+
+```powershell
+python -m pytest tests -q
+```
+
 ## Notes
 
 - Training is deterministic enough for local experiments when using a fixed seed.

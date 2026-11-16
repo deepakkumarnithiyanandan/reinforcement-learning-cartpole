@@ -1,6 +1,6 @@
 import numpy as np
 
-from reinforcement_learning.agent import DQNAgent, ReplayBuffer
+from agent import DQNAgent, ReplayBuffer
 
 
 def test_replay_buffer_tracks_samples():
